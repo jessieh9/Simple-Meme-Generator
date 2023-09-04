@@ -71,35 +71,13 @@ main {
 
 .meme {
     position: relative;
-    margin-top: 20px;
-}
-
-/* 1000 and less */
-@media screen and (max-width: 1000px) {
-    .meme {
-        /* background-color: lightblue; */
-        margin-left: 15%;
-    }
-}
-
-/* 1000 and more */
-@media screen and (min-width: 1000px) {
-    .meme {
-        /* background-color: orange; */
-        margin-left: 30%;
-    }
-}
-
-/* 650 and less */
-@media screen and (max-width: 650px) {
-    .meme {
-        margin-left: 0px;
-    }
-
+    display: flex;
+    justify-content: space-around;
+    /* margin-top: 20px; */
 }
 
 .meme--image {
-    margin: auto;
+    height: 400px;
     max-width: 100%;
     border-radius: 3px;
 }
